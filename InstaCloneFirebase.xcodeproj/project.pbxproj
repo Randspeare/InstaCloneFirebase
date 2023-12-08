@@ -13,6 +13,7 @@
 		6D3899302B2302CC00215B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D38992E2B2302CC00215B33 /* Main.storyboard */; };
 		6D3899322B2302CD00215B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3899312B2302CD00215B33 /* Assets.xcassets */; };
 		6D3899352B2302CD00215B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3899332B2302CD00215B33 /* LaunchScreen.storyboard */; };
+		CC05C4192B23100600F1FEBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC05C4182B23100600F1FEBC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6D3899312B2302CD00215B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D3899342B2302CD00215B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D3899362B2302CD00215B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC05C4182B23100600F1FEBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6D3899312B2302CD00215B33 /* Assets.xcassets */,
 				6D3899332B2302CD00215B33 /* LaunchScreen.storyboard */,
 				6D3899362B2302CD00215B33 /* Info.plist */,
+				CC05C4182B23100600F1FEBC /* GoogleService-Info.plist */,
 			);
 			path = InstaCloneFirebase;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D3899352B2302CD00215B33 /* LaunchScreen.storyboard in Resources */,
+				CC05C4192B23100600F1FEBC /* GoogleService-Info.plist in Resources */,
 				6D3899322B2302CD00215B33 /* Assets.xcassets in Resources */,
 				6D3899302B2302CC00215B33 /* Main.storyboard in Resources */,
 			);
