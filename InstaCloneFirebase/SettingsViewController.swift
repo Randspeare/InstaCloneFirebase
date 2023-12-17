@@ -6,6 +6,11 @@
 //
 
 import UIKit
+import FirebaseCore
+import FirebaseAnalytics
+import FirebaseAuth
+import FirebaseFirestore
+import FirebaseStorage
 
 class SettingsViewController: UIViewController {
 
@@ -17,8 +22,13 @@ class SettingsViewController: UIViewController {
     
 
     @IBAction func logoutClicked(_ sender: UIButton) {
-        
-        performSegue(withIdentifier: "toViewController", sender: nil)
+        //performSegue(withIdentifier: "toViewController", sender: nil)
+        do {
+            try Auth.auth().signOut()
+            self.performSegue(withIdentifier: "toViewController", sender: nil)
+        } catch {
+            print("Error")
+        }
     }
     
 }
