@@ -6,6 +6,11 @@
 //
 
 import UIKit
+import FirebaseCore
+import FirebaseAnalytics
+import FirebaseAuth
+import FirebaseFirestore
+import FirebaseStorage
 
 class UploadViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -34,6 +39,26 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     @IBAction func uploadButtonClicked(_ sender: UIButton) {
+        let storage = Storage.storage()
+        let storageReference = storage.reference()
+        
+        let mediaFolder = storageReference.child("media")
+        
+        if let data = imageView.image?.jpegData(compressionQuality: 0.5) {
+            let imageReference = mediaFolder.child("image.jpg")
+            imageReference.putData(data, metadata: nil) { (metadata, error) in
+                if error != nil {
+                    print(error?.localizedDescription)
+                } else {
+                    imageReference.downloadURL { (url, error) in
+                        if error == nil {
+                            let imageURL = url?.absoluteString
+                            print(imageURL)
+                        }
+                    }
+                }
+            }
+        }
     }
     
 }
