@@ -24,8 +24,9 @@ class FeedCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
     @IBAction func likedButtonClicked(_ sender: UIButton) {
+        
     }
 }
 

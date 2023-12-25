@@ -88,12 +88,12 @@
 				CCF367DD2B29F5E000B997C9 /* FeedViewController.swift */,
 				CCF367DF2B29F69700B997C9 /* UploadViewController.swift */,
 				CCF367E12B29F6BE00B997C9 /* SettingsViewController.swift */,
+				CCDC782F2B35C11A00B82AB0 /* FeedCell.swift */,
 				6D38992E2B2302CC00215B33 /* Main.storyboard */,
 				6D3899312B2302CD00215B33 /* Assets.xcassets */,
 				6D3899332B2302CD00215B33 /* LaunchScreen.storyboard */,
 				6D3899362B2302CD00215B33 /* Info.plist */,
 				CC05C4182B23100600F1FEBC /* GoogleService-Info.plist */,
-				CCDC782F2B35C11A00B82AB0 /* FeedCell.swift */,
 			);
 			path = InstaCloneFirebase;
 			sourceTree = "<group>";
