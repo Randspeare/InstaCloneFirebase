@@ -15,6 +15,7 @@
 		6D3899352B2302CD00215B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3899332B2302CD00215B33 /* LaunchScreen.storyboard */; };
 		AE007871AE5D90C654215CA8 /* Pods_InstaCloneFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FDEE3247279024E0631F1E /* Pods_InstaCloneFirebase.framework */; };
 		CC05C4192B23100600F1FEBC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC05C4182B23100600F1FEBC /* GoogleService-Info.plist */; };
+		CCDC78302B35C11A00B82AB0 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDC782F2B35C11A00B82AB0 /* FeedCell.swift */; };
 		CCF367DE2B29F5E000B997C9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF367DD2B29F5E000B997C9 /* FeedViewController.swift */; };
 		CCF367E02B29F69700B997C9 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF367DF2B29F69700B997C9 /* UploadViewController.swift */; };
 		CCF367E22B29F6BE00B997C9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF367E12B29F6BE00B997C9 /* SettingsViewController.swift */; };
@@ -32,6 +33,7 @@
 		7A6A301680A3CBC594FA8F89 /* Pods-InstaCloneFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCloneFirebase.release.xcconfig"; path = "Target Support Files/Pods-InstaCloneFirebase/Pods-InstaCloneFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		A6FDEE3247279024E0631F1E /* Pods_InstaCloneFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaCloneFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC05C4182B23100600F1FEBC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCDC782F2B35C11A00B82AB0 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		CCF367DD2B29F5E000B997C9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		CCF367DF2B29F69700B997C9 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		CCF367E12B29F6BE00B997C9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				6D3899332B2302CD00215B33 /* LaunchScreen.storyboard */,
 				6D3899362B2302CD00215B33 /* Info.plist */,
 				CC05C4182B23100600F1FEBC /* GoogleService-Info.plist */,
+				CCDC782F2B35C11A00B82AB0 /* FeedCell.swift */,
 			);
 			path = InstaCloneFirebase;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCDC78302B35C11A00B82AB0 /* FeedCell.swift in Sources */,
 				6D38992D2B2302CC00215B33 /* ViewController.swift in Sources */,
 				CCF367E02B29F69700B997C9 /* UploadViewController.swift in Sources */,
 				6D3899292B2302CC00215B33 /* AppDelegate.swift in Sources */,
