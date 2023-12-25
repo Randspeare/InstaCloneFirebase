@@ -56,7 +56,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
                             self.likeArray.append(likes)
                         }
                         
-                        if let imageUrl = document.get("imageUrl") as? String {
+                        if let imageUrl = document.get("imageURL") as? String {
                             self.userImageArray.append(imageUrl)
                         }
                     }
