@@ -13,6 +13,7 @@ class FeedCell: UITableViewCell {
     @IBOutlet var postImageView: UIImageView!
     @IBOutlet weak var likeCountLabel: UILabel!
     @IBOutlet weak var captionLabel: UILabel!
+    @IBOutlet weak var documentIdLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

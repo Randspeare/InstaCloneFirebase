@@ -290,8 +290,15 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K6p-jE-31q">
+                                                    <rect key="frame" x="331.66666666666669" y="11.666666666666666" width="41.333333333333314" height="20.333333333333336"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="K6p-jE-31q" secondAttribute="trailing" constant="20" symbolic="YES" id="1wD-Zs-yfQ"/>
                                                 <constraint firstItem="hMo-sR-wvy" firstAttribute="top" secondItem="Moe-c4-kYD" secondAttribute="bottom" constant="8" symbolic="YES" id="3Fh-GB-LD3"/>
                                                 <constraint firstAttribute="trailing" secondItem="onZ-X6-F9z" secondAttribute="trailing" constant="20" symbolic="YES" id="4wP-dh-KcW"/>
                                                 <constraint firstItem="onZ-X6-F9z" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Moe-c4-kYD" secondAttribute="trailing" constant="8" symbolic="YES" id="CfI-Xi-06B"/>
@@ -302,6 +309,7 @@
                                                 <constraint firstItem="u78-XF-byw" firstAttribute="top" secondItem="Ue9-Oc-c1w" secondAttribute="top" id="RYi-XG-052"/>
                                                 <constraint firstItem="XAT-Dn-oXr" firstAttribute="top" secondItem="glZ-IV-brd" secondAttribute="bottom" id="ZRM-Zo-S7Y"/>
                                                 <constraint firstAttribute="bottom" secondItem="XAT-Dn-oXr" secondAttribute="bottom" constant="25" id="bRw-fg-EU6"/>
+                                                <constraint firstItem="u78-XF-byw" firstAttribute="top" secondItem="K6p-jE-31q" secondAttribute="bottom" constant="-32" id="cgs-KO-uMC"/>
                                                 <constraint firstItem="hMo-sR-wvy" firstAttribute="leading" secondItem="glZ-IV-brd" secondAttribute="trailing" constant="3.6666666666666572" id="dOE-Fq-LCN"/>
                                                 <constraint firstItem="qEz-wj-sTh" firstAttribute="centerX" secondItem="Ue9-Oc-c1w" secondAttribute="centerX" id="eRL-BS-Gt7"/>
                                                 <constraint firstItem="XAT-Dn-oXr" firstAttribute="leading" secondItem="Ue9-Oc-c1w" secondAttribute="leading" constant="20" id="fu2-cV-pie"/>
@@ -314,6 +322,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="captionLabel" destination="XAT-Dn-oXr" id="BFG-Aq-9M8"/>
+                                            <outlet property="documentIdLabel" destination="K6p-jE-31q" id="NHJ-xd-EBL"/>
                                             <outlet property="likeCountLabel" destination="hMo-sR-wvy" id="gEN-0H-m2n"/>
                                             <outlet property="postImageView" destination="qEz-wj-sTh" id="DUw-YV-YuD"/>
                                             <outlet property="userEmailLabel" destination="u78-XF-byw" id="3Kn-rM-uWu"/>
@@ -375,7 +384,7 @@
         <image name="plus.app.fill" catalog="system" width="128" height="114"/>
         <image name="select" width="285" height="275"/>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
